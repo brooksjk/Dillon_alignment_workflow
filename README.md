@@ -9,6 +9,11 @@
 ## Getting Started
 To ensure that the workflow functions correctly, you will need to make some minor adjustments. Specifically, you will need to modify the config.yaml file and the snakemake_submitter files. The changes you need to make are indicated within angle brackets (< >) in these files.
 
+---
+
+**Samples will require the tags "Ancient_" or "Modern_" to be placed at the begining in order for the pipline to work**.
+
+---
 If you would like to ensure that the workflow is running correctly after you have made your modifications a dry run can be conducted using the following commands on Secretariat:
 ```
 #load in conda environments and activate snakemake
