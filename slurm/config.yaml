@@ -1,0 +1,2 @@
+jobs: 50
+cluster: "sbatch -p gen-mk-compute-1 -t {resources.time_min} --mem={resources.mem_mb} -c {resources.cpus} -o logs_slurm/{rule}_{wildcards} -e logs_slurm/{rule}_{wildcards} --mail-type=FAIL --mail-user=jkbrook@clemson.edu"

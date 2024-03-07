@@ -1,0 +1,4 @@
+WORKDIR: <path/to/work/directory>
+SAMPLES: <path/to/sample/location>
+REF: "/data2/wittdillon_lab/reference_genomes/water_buffalo/Bubalus_bubalis_genome_NDDB_SH_1.fasta"
+ADAPTREMOVE: "/data2/wittdillon_lab/software/adapterremoval-2.3.1/build/AdapterRemoval"
