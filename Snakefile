@@ -244,5 +244,3 @@ rule se_ancient_samtools:
             samtools rmdup -s {output.sorted_bam} {output.dedup_bam}
             samtools index {output.dedup_bam} {output.dedup_bam_index}
         """
-
-        
